@@ -29,7 +29,7 @@
     "vite": "^2.8.0"
   },
   "lint-staged": {
-    "src/**/*.{js,vue}": [
+    "*.{js,vue}": [
       "eslint --fix"
     ]
   }
