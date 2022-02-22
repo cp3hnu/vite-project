@@ -12,7 +12,8 @@ export default {
     click(index) {
       let a = 1
     },
-    click1(index) {}
+    click1(index) {},
+    click2(index) {}
   }
 }
 </script>
