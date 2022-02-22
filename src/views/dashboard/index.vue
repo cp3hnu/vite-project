@@ -10,7 +10,7 @@ export default {
   },
   methods: {
     click(index) {
-      let a = 1
+      let b = 1
     },
     click1(index) {},
     click2(index) {}
