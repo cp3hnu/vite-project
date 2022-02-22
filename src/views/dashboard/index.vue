@@ -1,6 +1,5 @@
 <template>
-  <div>
-  </div>
+  <div></div>
 </template>
 
 <script>
@@ -11,11 +10,9 @@ export default {
   },
   methods: {
     click(index) {
-
+      let a = 1
     },
-    click1(index) {
-
-    },
+    click1(index) {}
   }
 }
 </script>
