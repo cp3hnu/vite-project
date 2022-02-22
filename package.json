@@ -29,7 +29,7 @@
     "vite": "^2.8.0"
   },
   "lint-staged": {
-    "src/**/*": [
+    "src/**/*.{js.vue}": [
       "npx run lint",
       "npx run prettier"
     ]

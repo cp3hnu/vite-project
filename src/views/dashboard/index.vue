@@ -12,6 +12,8 @@ export default {
     click(index) {
       let b = 1
       let c = 4
+      let d = 1
+      let e = 4
     },
     click1(index) {},
     click2(index) {}
