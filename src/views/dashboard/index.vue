@@ -9,12 +9,10 @@ export default {
     return {}
   },
   methods: {
-    click(index) {
+    click123(index) {
       let b = 1
       let c = 4
-    },
-    click1(index) {},
-    click2(index) {}
+    }
   }
 }
 </script>
