@@ -11,8 +11,11 @@ export default {
   },
   methods: {
     click(index) {
-      
-    }
+
+    },
+    click1(index) {
+
+    },
   }
 }
 </script>

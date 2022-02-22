@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "npx eslint src/**/*.{vue,js}",
-    "prepare": "husky install"
+    "prettier": "prettier --write src"
   },
   "dependencies": {
     "vue": "^3.2.25",
@@ -29,8 +29,9 @@
     "vite": "^2.8.0"
   },
   "lint-staged": {
-    "*.{js,vue}": [
-      "eslint --fix"
+    "src/**/*": [
+      "npx run lint",
+      "npx run prettier"
     ]
   }
 }
