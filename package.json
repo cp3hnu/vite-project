@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "npx eslint --fix --ext .js,.vue src",
-    "prettier": "prettier --write src"
+    "prettier": "prettier --write src",
+    "cz": "cz"
   },
   "dependencies": {
     "vue": "^3.2.25",
