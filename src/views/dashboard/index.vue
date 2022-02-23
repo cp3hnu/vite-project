@@ -4,16 +4,11 @@
 
 <script>
 export default {
-  name: 'index',
+  name: 'dashboard-index',
   data() {
     return {}
   },
-  methods: {
-    click123(index) {
-      let b = 1
-      let c = 4
-    }
-  }
+  methods: {}
 }
 </script>
 
